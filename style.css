@@ -84,3 +84,46 @@ main {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
+.signup {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.signup h2 {
+    margin-bottom: 20px;
+}
+
+.signup form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.signup input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.signup input:focus {
+    outline: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.signup button {
+    background: #fff;
+    color: #2575fc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.signup button:hover {
+    background: #f0f0f0;
+}
